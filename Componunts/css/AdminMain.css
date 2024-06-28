@@ -1,0 +1,25 @@
+.admin-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 전체 높이에 맞춤 */
+    gap: 20px; /* 각 아이템 간의 간격 */
+  }
+  
+  .admin-main-item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* 배경색 */
+    border: 1px solid #ccc; /* 테두리 */
+    border-radius: 10px; /* 모서리 둥글게 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 그림자 효과 */
+    transition: transform 0.2s; /* 호버 효과를 위한 트랜지션 */
+  }
+  
+  .admin-main-item:hover {
+    transform: scale(1.05); /* 호버 시 확대 효과 */
+  }

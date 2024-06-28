@@ -1,0 +1,91 @@
+.member-logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.signup-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 뷰포트 높이 */
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.email-request-button {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin-top: -40px;
+    margin-left: calc(100% - 100px); /* Adjust the button to be inside the input */
+    z-index: 10;
+    display: block;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.signup-form {
+    width: 400px;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: calc(100% - 40px); /* 이미지 너비만큼 감소시킴 */
+    padding: 12px 40px 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* 이미지를 입력 필드 왼쪽에 배치 */
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    z-index: 1; /* 이미지를 입력 필드 위에 배치 */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a7d8f8;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: #4dcdf8;
+}
+
+.password-message {
+    color: red;
+    text-align: left;
+    margin-left: 20px;
+}

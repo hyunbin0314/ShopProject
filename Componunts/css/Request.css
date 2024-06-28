@@ -1,0 +1,139 @@
+.payment-request-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-section {
+  margin-bottom: 20px;
+}
+
+
+.section-title {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #000000;
+  border-bottom: 2px solid #87cefe;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.info-table th,
+.info-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.info-table th {
+  background-color: #f8f8f8;
+  text-align: left;
+  color: #555;
+  font-weight: 600;
+  width: 25%; /* 1/4 of the table width */
+}
+
+.info-table td {
+  background-color: #fff;
+  color: #333;
+  width: 75%; /* 3/4 of the table width */
+}
+
+.info-table tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.confirm-button {
+  padding: 10px 20px; /* Adjust padding for button size */
+  background-color: #87cefe;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px; /* Increase font size for better readability */
+  margin-left: 10px;
+  margin-top: 10px; /* Adjust margin for spacing */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.confirm-button:hover {
+  background-color: #00bfff;
+}
+
+.shipping-select {
+  width: calc(100% - 80px); /* Adjust width for button and extra space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-right: 10px;
+  outline: none;
+}
+
+.shipping-input {
+  width: calc(100% - 130px); /* Adjust width for button and extra space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-right: 10px;
+  outline: none;
+}
+
+.product-info {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-info td {
+  padding: 10px;
+  font-size: 15px;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 15px;
+}
+
+.product-info .product-name {
+  width: 60%;
+  padding-right: 10px;
+}
+
+.product-info .product-quantity {
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* 추가된 결제하기 버튼 스타일 */
+.payment-button-container {
+  text-align: center; /* 가운데 정렬 */
+  margin-top: 20px; /* 위 여백 추가 */
+}
+
+.payment-button {
+  padding: 10px 20px; /* 버튼 내부 여백 */
+  margin-top: 10px;
+  background-color: #87cefe; /* 배경색 */
+  color: rgb(0, 0, 0); /* 글자색 */
+  border: 1px solid black; /* 테두리 없음 */
+  border-radius: 4px; /* 테두리 둥글게 */
+  cursor: pointer; /* 커서 포인터로 변경 */
+  font-size: 16px; /* 글자 크기 */
+  transition: background-color 0.3s ease; /* 배경색 변화에 대한 부드러운 전환 효과 */
+}
+
+.payment-button:hover {
+  background-color: #00bfff; /* 마우스 오버 시 배경색 변경 */
+}

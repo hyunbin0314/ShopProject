@@ -1,0 +1,223 @@
+.cart {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center; /* 로고와 장바구니 섹션을 가운데 정렬 */
+}
+
+.cart-list-body{
+  background-color: rgb(255, 255, 255);
+}
+
+.cart-logo {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.cart-section {
+  border: 0.5px solid #b6b6b6;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 200px; /* 최소 높이 설정 */
+  text-align: left; /* 섹션 내부 텍스트를 왼쪽 정렬 */
+  
+}
+
+.cart-section h2 {
+  margin-top: 0;
+}
+
+.cart-purchase-text {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border: 0.5px solid rgb(185, 185, 185);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #ebf8f8;
+}
+
+.cart-productName{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cart-inner-section {
+  display: flex;
+  justify-content: space-between; /* 요소들을 좌우로 배치 */
+}
+
+.cart-section1 {
+  width: 65%; /* 각 섹션의 너비 설정 */
+  height: 80%;
+  border: 1px solid rgb(185, 185, 185);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ebf8f8;
+  justify-content: space-between;
+}
+
+.cart-section2 {
+  width: 25%; /* 각 섹션의 너비 설정 */
+  border: 1px solid rgb(185, 185, 185);
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%; /* 섹션 2의 높이를 100%로 설정하여 내용이 없더라도 높이가 고정되도록 합니다. */
+  background-color: #ebf8f8;
+}
+
+.cart-section h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 20px;
+  background-color: d3f7f7;
+}
+
+.cart-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-checkbox-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000000; /* 실선 추가 */
+  padding-bottom: 10px; /* 실선과 글 사이 간격 추가 */
+  justify-content: space-between;
+}
+
+.cart-checkbox-item-name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-checkbox-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.cart-checkbox-item label {
+  font-size: 16px;
+  color: #333;
+}
+
+.cart-section-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.cart-name {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cart-price {
+  margin-left: 3px;
+  font-size: 15px;
+  color: rgb(66, 50, 50);
+  font-weight: 700;
+}
+
+.cart-select-all-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* 버튼 간 간격 추가 */
+  margin-top: 20px;
+}
+
+.cart-select-all-container button {
+  margin-right: 10px; /* 버튼 간 간격 추가 */
+  background-color: #bee0f7; /* 버튼 배경색 지정 */
+  padding: 7px;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(185, 185, 185)
+  ;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-select-all-container button:hover {
+  background-color: #00bfff;
+}
+
+.cart-quantity-control {
+  display: flex;
+  width: 100px;
+  align-items: center;
+  gap: 17px;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 4px;
+}
+
+.cart-quantity-control button {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 0px;
+  display: flex;
+  border-radius: 6px;
+  background-color: #ffffff00;
+  cursor: pointer;
+  margin-top: 0px;
+  color: #474747;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.cart-quantity-control button:hover {
+  background-color: #ffffff00;
+}
+
+.cart-quantity-control span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-total {
+  border-top: 1px solid #000000; /* 실선 추가 */
+  padding-top: 10px; /* 실선과 글 사이 간격 추가 */
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cart-checkout-button {
+  background-color: #bee0f7;
+  color: #000000;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-checkout-button:hover {
+  background-color: #00bfff;
+}
+
+.cart-product-delete {
+  width: 70px;
+  height: 30px;
+  font-size: 13px;
+  padding: 0;
+  margin-top: 90px;
+  background-color: #bee0f7;
+  color: #000000;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-product-delete:hover {
+  background-color: #00bfff;
+}

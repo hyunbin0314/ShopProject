@@ -1,0 +1,190 @@
+/* General Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.member-list-page-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Table Styles */
+.member-list-page-table-container {
+  overflow-y: scroll; /* 평소에도 스크롤바가 나타나도록 설정 */
+  height: 600px;
+  box-sizing: border-box; /* 테두리가 컨테이너 크기에 포함되도록 설정 */
+}
+
+.member-list-page-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.member-list-page-table th, .member-list-page-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.member-list-page-table th {
+  background-color: #87CEFA; /* 파란색 또는 하늘색 계열 */
+  color: white;
+  font-weight: bold;
+  position: sticky; /* 위쪽에 고정 */
+  top: 0;
+  z-index: 1; /* 다른 셀보다 앞에 위치 */
+}
+
+.member-list-page-table th::before {
+  content: "";
+  display: block;
+  height: 1px; /* 필요에 따라 조정 */
+  background-color: #87CEFA; /* 헤더와 동일한 배경색 */
+  position: absolute;
+  top: -1px; /* 헤더 바로 위에 위치 */
+  left: 0;
+  right: 0;
+}
+
+.member-list-page-table tr:nth-child(even) td {
+  background-color: #f2f2f2; /* 회색 */
+}
+
+.member-list-page-table tr:nth-child(odd) td {
+  background-color: #fff; /* 흰색 */
+}
+
+/* Form and Input Styles */
+.member-list-page-field {
+  margin-bottom: 10px;
+}
+
+.member-list-page-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.member-list-page-input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.member-list-page-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Button Styles */
+.member-list-page-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.member-list-page-buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6.9px 12px; /* 처음px는 상하 크기 다음 px는 좌우 크기 */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.member-list-page-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Filter and Sort Controls */
+.member-list-page-filter-container,
+.member-list-page-sort-controls,
+.member-list-page-pagination-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.members-per-page-select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Pagination Styles */
+.member-list-page-pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px; /* 간격 조정 */
+  margin-top: 20px; /* 테이블과 페이지네이션 사이의 간격 조정 */
+}
+
+.member-list-page-pagination-buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 10px; /* 버튼의 크기 조정 */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.member-list-page-pagination-buttons button.disabled {
+  background-color: #e0e0e0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.member-list-page-pagination-buttons button:hover:not(.disabled) {
+  background-color: #0056b3;
+}
+
+.member-list-page-pagination-button.active {
+  background-color: #0056b3;
+}
+
+.member-list-page-pagination-buttons .disabled {
+  background-color: #e0e0e0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+/* Add styles for the new control table */
+.member-list-page-control-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0px; /* 상품목록 테이블과 거리 조절 */
+}
+
+.member-list-page-control-table th, .member-list-page-control-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.member-list-page-control-table th {
+  background-color: #f2f2f2;
+}
+
+/* 드롭다운 메뉴 스타일 */
+.member-list-page-control-table select { 
+  width: 100%;
+}
+
+.member-list-page-control-table label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+.member-count2 {
+  display: flex;
+  justify-content: center;
+}

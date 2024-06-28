@@ -1,0 +1,21 @@
+.Delivery-page {
+    display: flex;
+    flex-direction: column; /* 수직 정렬 */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.Delivery-section1 {
+    margin-bottom: 20px; /* 섹션 간의 간격 */
+    width: 100%;
+  }
+  
+  .Delivery-section2 {
+   
+    display: flex;
+    flex-direction: row; /* 수평 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    
+  }

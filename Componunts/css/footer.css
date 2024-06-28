@@ -1,0 +1,107 @@
+/* 전체 Footer 컨테이너 */
+.footer-container {
+    background-color: aliceblue; /* 배경색 설정 */
+    color: #fff; /* 글자색 설정 */
+    padding: 30px 0; /* 위아래 여백 설정 */
+    text-align: left; /* 전체 텍스트 왼쪽 정렬 */
+}
+
+/* Footer 상단 영역 */
+.footer-top {
+    padding: 0 20px;
+    display: flex;
+    max-width: 2000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+/* 추가 정보 링크 목록 */
+.additional-links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.additional-links a {
+    color: #000000; /* 링크 텍스트 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    margin-right: 90px; /* 링크 사이 간격 */
+    margin-left: 90px;
+    font-size: 14px; /* 링크 텍스트 크기 */
+}
+
+.additional-links a:hover {
+    text-decoration: underline; /* 호버시 밑줄 추가 */
+}
+
+/* Footer 내용 영역 */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 각 섹션 */
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* 상호명 및 기타 정보 */
+.Shop-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* 고객센터 및 전화번호 관련 */
+.Shop-Phone-sub {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.Shop-Phone-main {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.Shop-Phone {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* DW은행 관련 정보 */
+.Shop-bank-main {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.Shop-bank-sub {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* 하단 저작권 정보 */
+.footer-bottom {
+    background-color: #222; /* 배경색 설정 */
+    text-align: center; /* 가운데 정렬 */
+    padding: 10px 0; /* 위아래 여백 설정 */
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    font-size: 14px; /* 글자 크기 설정 */
+    margin: 0; /* 마진 초기화 */
+}

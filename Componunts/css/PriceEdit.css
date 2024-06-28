@@ -1,0 +1,87 @@
+.price-edit-container {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  height: 100vh; /* 화면의 높이를 100%로 설정하여 화면 가운데에 위치하도록 함 */
+  background-color: #f0f0f0; /* 배경색 (필요에 따라 수정 가능) */
+}
+
+.Admin-logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* 로고 이미지의 너비 */
+  height: auto; /* 높이는 자동 조절 */
+  margin-bottom: 20px; /* 로고와 폼 사이의 간격 조절 */
+}
+
+.price-edit {
+  max-width: 800px; /* 컨테이너의 최대 너비를 800px로 설정 */
+  margin: 0 auto;
+  padding: 40px; /* 내부 여백을 늘림 */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.price-edit h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.Adiminform-group {
+  margin-bottom: 15px;
+}
+
+.Adiminform-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.Adiminform-group input[type="text"],
+.Adiminform-group input[type="number"],
+.Adiminform-group textarea,
+.Adiminform-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Adiminform-group textarea {
+  height: 100px;
+}
+
+.Adiminform-group select:disabled {
+  background-color: #e0e0e0; /* 회색 배경 */
+  color: #9e9e9e; /* 회색 글자 */
+  cursor: not-allowed; /* 비활성화된 커서 */
+}
+
+
+.AdminEdit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.AdminEdit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}

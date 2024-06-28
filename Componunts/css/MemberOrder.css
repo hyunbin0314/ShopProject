@@ -1,0 +1,138 @@
+.Order-member-order-container {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Order-left-container {
+  width: 200px;
+  height: 500px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.Order-left-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.Order-left-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Order-left-container li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.Order-left-container li a {
+  color: #754fd6;
+  text-decoration: none;
+}
+
+.Order-left-container li a:hover {
+  text-decoration: underline;
+}
+
+.Order-order-check {
+  width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.Order-heading {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 32px;
+}
+
+.Order-order {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.Order-order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Order-order-header span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Order-order-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Order-order-item img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.Order-order-item .Order-item-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Order-order-item .Order-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Order-order-item .Order-item-quantity {
+  font-size: 14px;
+  color: #000000;
+}
+
+.Order-order-item .Order-item-price {
+  font-size: 16px;
+  color: #000000;
+}
+
+.Order-view-detail-button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  width: 100px;
+  height: auto;
+}
+
+.Order-view-detail-button:hover {
+  background-color: #dfdfdf;
+}

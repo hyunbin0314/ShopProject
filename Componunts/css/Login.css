@@ -1,0 +1,95 @@
+/* Login.css */
+
+.login-page {
+    justify-content: center;
+    margin: 0;
+    background-color: aliceblue;
+
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 뷰포트 높이 */
+  }
+
+  
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 400px;
+    height: 400px;
+    text-align: center; /* 가운데 정렬을 위해 추가 */
+    
+}
+
+.login-logo {
+    width: 120px; /* 로고 이미지 크기 조정 */
+}
+
+.login-form-group {
+    margin-bottom: 20px;
+    text-align: left; /* 라벨과 입력 필드 왼쪽 정렬 */
+    width: 100%;
+}
+
+
+.login-form-group input {
+    width: 100%;
+    padding: 15px; /* 기존 10px에서 12px로 조정 */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d0ecff;
+    color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.signup-buttons {
+    width: 25%;
+    font-size: 11px;
+    background-color: #fff;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signup-buttons:hover {
+    
+    background-color: #ffffff;
+}
+
+
+.login-button:hover {
+    background-color: #00bfff;
+}
+
+.member-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #87cefe;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.member-button:hover {
+    background-color: #00bfff;
+}

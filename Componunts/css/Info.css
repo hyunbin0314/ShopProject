@@ -1,0 +1,130 @@
+.info-user-info-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.info-left-container {
+  width: 250px;
+  height: 400px;
+  background-color: #dbf6ff;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+.info-left-container h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.info-left-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.info-left-container li {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.info-member-info {
+  max-width: 800px; /* Adjusted max-width for the member info section */
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-heading {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.point-info{
+  font-size: 12px;
+  text-align: right; /* 오른쪽 정렬 */
+}
+
+.info-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.info-info-table .info-header-row td {
+  border-top: 2px solid #000;
+  border-radius: 10px;
+}
+
+.info-label {
+  padding: 15px;
+  font-weight: bold;
+  background-color: #bbcee7;
+  border: 1px solid #8080808d;
+  width: 30%; /* Adjusted width for label cells */
+  text-align: left; /* Center align text in label cells */
+  border-radius: 4px;
+}
+
+.info-value {
+  padding: 15px;
+  border: 1px solid #8080808d;
+  width: 75%; /* Adjusted width for value cells */
+}
+
+.info-password-form {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.info-password-form .info-field {
+  margin-bottom: 20px;
+}
+
+.info-password-form .info-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.info-password-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7b8b8;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-password-form .info-button {
+  background-color: #87cefe;
+  color: rgb(0, 0, 0);
+  width: 30%;
+  padding: 7px 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-password-form .info-button:hover {
+  background-color: #00bfff;
+}
+
+.info-error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}

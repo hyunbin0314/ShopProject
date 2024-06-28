@@ -1,0 +1,140 @@
+/* Delivery-container 스타일 */
+.Delivery-container {
+    width: 800px;
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Delivery-logo 스타일 */
+.Delivery-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Delivery-title 스타일 */
+.Delivery-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Delivery-list 스타일 */
+.Delivery-list {
+    margin-top: 20px;
+    
+}
+
+/* Delivery-ul 스타일 */
+.Delivery-ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Delivery-li 스타일 */
+.Delivery-li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+/* Delivery-info 스타일 */
+.Delivery-info {
+    margin-bottom: 5px;
+}
+
+/* Delivery-name 스타일 */
+.Delivery-name {
+    font-weight: bold;
+}
+
+/* Delivery-edit 스타일 */
+.Delivery-edit {
+    margin-bottom: 10px;
+}
+
+/* Delivery-input 스타일 */
+.Delivery-input {
+    width: calc(100% - 80px);
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+    margin: 5px;
+}
+
+/* Delivery-button 스타일 */
+.Delivery-button {
+    padding: 8px 12px;
+    background-color: #87cefe;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    margin-top: 10px;
+    
+}
+
+.Delivery-buttons {
+    justify-content: center;
+    
+}
+
+.Delivery-button:hover {
+    background-color: #00bfff;
+}
+
+.Delivery-addButton {
+    width: 200px;
+    font-weight: 700;
+    border: none;
+}
+
+/* Delivery-editButton 스타일 */
+.Delivery-editButton {
+    padding: 8px 12px;
+    background-color: #87cefe;
+    color: #4b4b4b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: 700;
+   
+}
+
+.Delivery-editButton:hover {
+    background-color: #00bfff;
+}
+
+/* Delivery-deleteButton 스타일 */
+.Delivery-deleteButton {
+    padding: 8px 12px;
+    background-color: #df5d6a;
+    color: #444444;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+
+.Delivery-deleteButton:hover {
+    background-color: #ff7482;
+}

@@ -1,0 +1,205 @@
+.product-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.product-list {
+  list-style: none;
+  padding: 10px;
+}
+
+.product-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.product-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  font-size: 16px;
+  color: #888;
+}
+
+.product-details div {
+  margin-bottom: 10px;
+}
+
+.product-edit-buttons {
+  margin-top: 10px;
+  /* 2024-06-10 이재일 수정 */
+  display: flex;
+  gap: 10px;
+  /* 수정 끝 */
+}
+
+.product-edit-buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-edit-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.product-item input[type="text"],
+/* 2024-06-10 이재일 수정 */
+.product-item input[type="number"],
+.product-item input[type="url"],
+.product-item textarea {
+/* 수정 끝 */
+  width: calc(100% - 20px); /* 상품 항목의 패딩을 고려하여 크기 조정 */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* 2024-06-10 이재일 수정 */
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-controls,
+.pagination-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-select {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.filter-select:disabled,
+.product-input.disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.filter-button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #0056b3;
+}
+
+.filter-button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.product-input.disabled,
+.filter-select:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.product-field {
+  margin-bottom: 10px;
+}
+
+.product-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.product-textarea {
+  height: 100px; /* 설명 입력칸 높이 설정 */
+  resize: vertical; /* 설명 입력칸 크기 조절 가능 */
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination-buttons .disabled {
+  background-color: #e0e0e0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.sort-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-controls button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sort-controls button:hover {
+  background-color: #0056b3;
+}
+/* 수정 끝 */
